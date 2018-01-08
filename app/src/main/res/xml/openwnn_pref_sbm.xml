@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="openwnn_pref_ja">
+    <PreferenceCategory android:title="@string/preference_key_setting_menu">
+        <CheckBoxPreference
+            android:key="key_sound"
+            android:summary="@string/preference_key_sound_summary"
+            android:title="@string/preference_key_sound_title" />
+        <CheckBoxPreference
+            android:key="key_vibration"
+            android:summary="@string/preference_key_vibration_summary"
+            android:title="@string/preference_key_vibration_title" />
+        <ListPreference
+            android:defaultValue="@string/preference_popup_preview_sel_popup_feedback"
+            android:entries="@array/popup_preview_sel"
+            android:entryValues="@array/popup_preview_sel_id"
+            android:key="popup_preview_sel"
+            android:summary="@string/preference_preview_summary"
+            android:title="@string/preference_preview_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="disp_keytop_directchar"
+            android:summary="@string/preference_disp_keytop_directchar_summary"
+            android:title="@string/preference_disp_keytop_directchar_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="auto_caps"
+            android:summary="@string/preference_auto_caps_summary"
+            android:title="@string/preference_auto_caps_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="auto_insert_space"
+            android:summary="@string/preference_auto_insert_space_summary"
+            android:title="@string/preference_auto_insert_space_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="del_key_repeatable"
+            android:summary="@string/preference_del_key_repeatable_summary"
+            android:title="@string/preference_del_key_repeatable_title" />
+        <name.yxl.opewnn.JAJP.KeyboardListPreferenceJAJP
+            android:defaultValue="keyboard_android_default"
+            android:entries="@array/keyboard_skin"
+            android:entryValues="@array/keyboard_skin_id"
+            android:key="keyboard_skin"
+            android:summary="@string/preference_keyboard_skin_summary"
+            android:title="@string/preference_keyboard_skin_title" />
+        <ListPreference
+            android:defaultValue="both"
+            android:entries="@array/keyin_toggle"
+            android:entryValues="@array/keyin_toggle_id"
+            android:key="keyin_toggle_sel"
+            android:summary="@string/preference_keyin_toggle_summary"
+            android:title="@string/preference_keyin_toggle_title" />
+        <ListPreference
+            android:defaultValue="landscape"
+            android:dialogTitle="@string/preference_auto_qwerty_hiragana_title"
+            android:entries="@array/auto_qwerty_hiragana"
+            android:entryValues="@array/auto_qwerty_hiragana_id"
+            android:key="auto_qwerty_hiragana_sel"
+            android:summary="@string/preference_auto_qwerty_hiragana_summary"
+            android:title="@string/preference_auto_qwerty_hiragana_title" />
+        <ListPreference
+            android:defaultValue="landscape"
+            android:dialogTitle="@string/preference_auto_qwerty_alphabet_title"
+            android:entries="@array/auto_qwerty_alphabet"
+            android:entryValues="@array/auto_qwerty_alphabet_id"
+            android:key="auto_qwerty_alphabet_sel"
+            android:summary="@string/preference_auto_qwerty_alphabet_summary"
+            android:title="@string/preference_auto_qwerty_alphabet_title" />
+        <ListPreference
+            android:defaultValue="disable"
+            android:dialogTitle="@string/preference_auto_qwerty_number_title"
+            android:entries="@array/auto_qwerty_number"
+            android:entryValues="@array/auto_qwerty_number_id"
+            android:key="auto_qwerty_number_sel"
+            android:summary="@string/preference_auto_qwerty_number_summary"
+            android:title="@string/preference_auto_qwerty_number_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="bigkeyboard_portrait"
+            android:summary="@string/preference_bigkeyboard_portrait_summary"
+            android:title="@string/preference_bigkeyboard_portrait_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="bigkeyboard_landscape"
+            android:summary="@string/preference_bigkeyboard_landscape_summary"
+            android:title="@string/preference_bigkeyboard_landscape_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="candidates_1line"
+            android:summary="@string/preference_candidates_1line_summary"
+            android:title="@string/preference_candidates_1line_title" />
+        <ListPreference
+            android:defaultValue="lev2"
+            android:dialogTitle="@string/preference_flick_threshold_title"
+            android:entries="@array/flick_threshold"
+            android:entryValues="@array/flick_threshold_id"
+            android:key="flick_threshold_sel"
+            android:summary="@string/preference_flick_threshold_summary"
+            android:title="@string/preference_flick_threshold_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_conversion_menu">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="opt_enable_learning"
+            android:summary="@string/preference_input_learning_summary"
+            android:title="@string/preference_input_learning_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="opt_prediction"
+            android:summary="@string/preference_prediction_summary"
+            android:title="@string/preference_prediction_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="opt_prediction"
+            android:key="opt_spell_correction"
+            android:summary="@string/preference_correct_spell_summary"
+            android:title="@string/preference_correct_spell_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_dictionary_menu">
+        <PreferenceScreen
+            android:key="user_dictionary_edit_words"
+            android:persistent="false"
+            android:summary="@string/preference_user_dictionary_edit_words_summary_ja"
+            android:title="@string/preference_dictionary_menu_ja">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="name.yxl.opewnn.JAJP.UserDictionaryToolsListJAJP"
+                android:targetPackage="name.yxl.opewnn" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="user_dictionary_edit_words"
+            android:persistent="false"
+            android:summary="@string/preference_user_dictionary_edit_words_summary_en"
+            android:title="@string/preference_dictionary_menu_en">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="name.yxl.opewnn.EN.UserDictionaryToolsListEN"
+                android:targetPackage="name.yxl.opewnn" />
+        </PreferenceScreen>
+        <name.yxl.opewnn.JAJP.ClearLearnDictionaryDialogPreferenceJAJP
+            android:dialogMessage="@string/dialog_clear_learning_dictionary_message"
+            android:key="clear_learn_dictionary"
+            android:negativeButtonText="@string/dialog_button_cancel"
+            android:positiveButtonText="@string/dialog_button_ok"
+            android:summary="@string/preference_user_dictionary_clear_learning_summary"
+            android:title="@string/preference_user_dictionary_clear_learning_title" />
+        <name.yxl.opewnn.JAJP.ExportUserDictionaryDialogPreferenceJAJP
+            android:dialogMessage="@string/dialog_export_dictionary_message"
+            android:key="export_dictionary"
+            android:negativeButtonText="@string/dialog_button_cancel"
+            android:positiveButtonText="@string/dialog_button_ok"
+            android:summary="@string/preference_user_dictionary_export_summary"
+            android:title="@string/preference_user_dictionary_export_title" />
+        <name.yxl.opewnn.JAJP.ImportUserDictionaryDialogPreferenceJAJP
+            android:dialogMessage="@string/dialog_import_dictionary_message"
+            android:key="import_dictionary"
+            android:negativeButtonText="@string/dialog_button_cancel"
+            android:positiveButtonText="@string/dialog_button_ok"
+            android:summary="@string/preference_user_dictionary_import_summary"
+            android:title="@string/preference_user_dictionary_import_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="use_socialime"
+            android:summary="@string/preference_use_socialime_summary"
+            android:title="@string/preference_use_socialime_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="use_contact_book"
+            android:summary="@string/preference_use_contactbook_summary"
+            android:title="@string/preference_use_contactbook_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_aboutime_menu">
+        <Preference
+            android:key="openwnn_version"
+            android:summary="@string/openwnn_japanese_copyright"
+            android:title="@string/openwnn_japanese_version" />
+    </PreferenceCategory>
+</PreferenceScreen>

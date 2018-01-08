@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="20%p" android:keyHeight="@dimen/key_height_landscape_t" android:horizontalGap="0dp" android:verticalGap="0dp">
+    <Row>
+        <Key android:keyWidth="18%" android:codes="-219" android:keyEdgeFlags="left" android:iconPreview="@drawable/key_12key_reverse_b" android:keyIcon="@drawable/key_12key_reverse" />
+        <Key android:horizontalGap="2%" android:codes="-201" android:keyLabel="1" />
+        <Key android:codes="-202" android:keyLabel="2" />
+        <Key android:codes="-203" android:keyLabel="3" />
+        <Key android:keyWidth="18%" android:horizontalGap="2%" android:codes="-214" android:keyEdgeFlags="right" android:isRepeatable="false" android:iconPreview="@drawable/key_12key_del_b" android:keyIcon="@drawable/key_12key_del" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="18%" android:codes="-218" android:keyEdgeFlags="left" android:isRepeatable="true" android:iconPreview="@drawable/key_12key_left_b" android:keyIcon="@drawable/key_12key_left" />
+        <Key android:horizontalGap="2%" android:codes="-204" android:keyLabel="4" />
+        <Key android:codes="-205" android:keyLabel="5" />
+        <Key android:codes="-206" android:keyLabel="6" />
+        <Key android:keyWidth="18%" android:horizontalGap="2%" android:codes="-217" android:keyEdgeFlags="right" android:isRepeatable="true" android:iconPreview="@drawable/key_12key_right_b" android:keyIcon="@drawable/key_12key_right" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="18%" android:codes="-222" android:keyEdgeFlags="left" android:iconPreview="@drawable/key_12key_pict_sym_b" android:keyIcon="@drawable/key_12key_pict_sym" />
+        <Key android:horizontalGap="2%" android:codes="-207" android:keyLabel="7" />
+        <Key android:codes="-208" android:keyLabel="8" />
+        <Key android:codes="-209" android:keyLabel="9" />
+        <Key android:keyWidth="18%" android:horizontalGap="2%" android:codes="-215" android:keyEdgeFlags="right" android:isRepeatable="true" android:iconPreview="@drawable/key_12key_space_b" android:keyIcon="@drawable/key_12key_space" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="18%" android:codes="-230" android:popupKeyboard="@xml/keyboard_switch_key_jp" android:keyEdgeFlags="left" android:iconPreview="@drawable/key_mode_change_b" android:keyIcon="@drawable/key_12key_mode_half_num" />
+        <Key android:horizontalGap="2%" android:codes="-213" android:keyLabel="*" />
+        <Key android:codes="-210" android:keyLabel="0" />
+        <Key android:codes="-211" android:keyLabel="#" />
+        <Key android:keyWidth="18%" android:horizontalGap="2%" android:codes="-216" android:keyEdgeFlags="right" android:iconPreview="@drawable/key_12key_enter_b" android:keyIcon="@drawable/key_12key_enter" />
+    </Row>
+</Keyboard>

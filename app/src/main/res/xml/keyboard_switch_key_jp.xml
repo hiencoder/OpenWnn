@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:keyWidth="15%p"
+	  android:horizontalGap="0dip"
+	  android:verticalGap="0dip"
+	  android:keyHeight="50dip"
+	  >
+    <!--Layout chuyển đổi bàn phím tiếng Nhật-->
+  <Row>
+    <Key
+        android:codes="-301"
+        android:keyLabel="@string/key_12key_switch_full_hiragana"
+	    android:keyEdgeFlags="left"/>
+    <Key
+        android:codes="-302"
+        android:keyLabel="@string/key_12key_switch_full_katakana"/>
+    <Key
+        android:codes="-303"
+        android:keyLabel="@string/key_12key_switch_full_alphabet"/>
+    <Key android:codes="-304"
+        android:keyLabel="@string/key_12key_switch_full_number"
+	    android:keyEdgeFlags="right"/>
+  </Row>
+  <Row>
+    <Key
+        android:codes="-221"
+        android:keyIcon="@drawable/key_mode_panel_kbd"
+        android:iconPreview="@drawable/key_mode_panel_kbd_b"
+	    android:keyEdgeFlags="left"/>
+    <Key
+        android:codes="-306"
+        android:keyLabel="@string/key_12key_switch_half_katakana"/>
+    <Key
+        android:codes="-307"
+        android:keyLabel="@string/key_12key_switch_half_alphabet"/>
+    <Key
+        android:codes="-308"
+        android:keyLabel="@string/key_12key_switch_half_number"
+	    android:keyEdgeFlags="right"/>
+  </Row>
+</Keyboard>

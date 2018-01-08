@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0dp"
+    android:keyHeight="@dimen/key_height"
+    android:keyWidth="20%p"
+    android:verticalGap="0dp">
+    <!--Bàn phím full alphabet k phải querty-->
+    <!--Row 1-->
+    <Row>
+        <Key
+            android:codes="-219"
+            android:iconPreview="@drawable/key_12key_reverse_b"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/key_12key_reverse"
+            android:keyWidth="18%" />
+        <Key
+            android:codes="-201"
+            android:horizontalGap="2%"
+            android:iconPreview="@drawable/key_12key_alpha1_b"
+            android:keyIcon="@drawable/key_12key_alpha1" />
+        <Key
+            android:codes="-202"
+            android:iconPreview="@drawable/key_12key_alpha2_b"
+            android:keyIcon="@drawable/key_12key_alpha2" />
+        <Key
+            android:codes="-203"
+            android:iconPreview="@drawable/key_12key_alpha3_b"
+            android:keyIcon="@drawable/key_12key_alpha3" />
+        <Key
+            android:codes="-214"
+            android:horizontalGap="2%"
+            android:iconPreview="@drawable/key_12key_del_b"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/key_12key_del"
+            android:keyWidth="18%" />
+    </Row>
+
+    <!--Row 2-->
+    <Row>
+        <Key
+            android:codes="-218"
+            android:iconPreview="@drawable/key_12key_left_b"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/key_12key_left"
+            android:keyWidth="18%" />
+        <Key
+            android:codes="-204"
+            android:horizontalGap="2%"
+            android:iconPreview="@drawable/key_12key_alpha4_b"
+            android:keyIcon="@drawable/key_12key_alpha4" />
+        <Key
+            android:codes="-205"
+            android:iconPreview="@drawable/key_12key_alpha5_b"
+            android:keyIcon="@drawable/key_12key_alpha5" />
+        <Key
+            android:codes="-206"
+            android:iconPreview="@drawable/key_12key_alpha6_b"
+            android:keyIcon="@drawable/key_12key_alpha6" />
+        <Key
+            android:codes="-217"
+            android:horizontalGap="2%"
+            android:iconPreview="@drawable/key_12key_right_b"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/key_12key_right"
+            android:keyWidth="18%" />
+    </Row>
+
+    <!--Row 3-->
+    <Row>
+        <Key
+            android:codes="-222"
+            android:iconPreview="@drawable/key_12key_pict_sym_b"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/key_12key_pict_sym"
+            android:keyWidth="18%" />
+        <Key
+            android:codes="-207"
+            android:horizontalGap="2%"
+            android:iconPreview="@drawable/key_12key_alpha7_b"
+            android:keyIcon="@drawable/key_12key_alpha7" />
+        <Key
+            android:codes="-208"
+            android:iconPreview="@drawable/key_12key_alpha8_b"
+            android:keyIcon="@drawable/key_12key_alpha8" />
+        <Key
+            android:codes="-209"
+            android:iconPreview="@drawable/key_12key_alpha9_b"
+            android:keyIcon="@drawable/key_12key_alpha9" />
+        <Key
+            android:codes="-215"
+            android:horizontalGap="2%"
+            android:iconPreview="@drawable/key_12key_space_b"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/key_12key_space"
+            android:keyWidth="18%" />
+    </Row>
+
+    <!--Row 4-->
+    <Row android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="-230"
+            android:iconPreview="@drawable/key_mode_change_b"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/key_12key_mode_full_alpha"
+            android:keyWidth="18%"
+            android:popupKeyboard="@xml/keyboard_switch_key_jp" />
+        <Key
+            android:codes="-213"
+            android:horizontalGap="2%"
+            android:iconPreview="@drawable/key_12key_caps_b"
+            android:keyIcon="@drawable/key_12key_caps" />
+        <Key
+            android:codes="-210"
+            android:iconPreview="@drawable/key_12key_alpha0_b"
+            android:keyIcon="@drawable/key_12key_alpha0" />
+        <Key
+            android:codes="-211"
+            android:iconPreview="@drawable/key_12key_period_comma_b"
+            android:keyIcon="@drawable/key_12key_period_comma" />
+        <Key
+            android:codes="-216"
+            android:horizontalGap="2%"
+            android:iconPreview="@drawable/key_12key_enter_jp_b"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/key_12key_enter_jp"
+            android:keyWidth="18%" />
+    </Row>
+</Keyboard>

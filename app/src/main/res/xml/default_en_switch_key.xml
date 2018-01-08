@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0dp"
+    android:keyHeight="50dp"
+    android:keyWidth="15%p"
+    android:verticalGap="0dp">
+    <Row>
+        <Key
+            android:codes="-113"
+            android:keyEdgeFlags="left"
+            android:keyLabel="@string/key_12key_switch_half_alphabet" />
+        <Key
+            android:codes="-112"
+            android:keyEdgeFlags="right"
+            android:keyLabel="@string/key_12key_switch_half_number" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="keyboard_skin">
+        <item>@string/preference_keyboard_android_default</item>
+        <item>@string/preference_keyboard_simple</item>
+        <item>@string/preference_keyboard_metal</item>
+        <item>@string/preference_keyboard_gray_fat</item>
+        <item>@string/preference_keyboard_simple_fat</item>
+        <item>@string/preference_keyboard_metal_fat</item>
+        <item>@string/preference_keyboard_custom</item>
+    </array>
+    <array name="keyboard_skin_id">
+        <item>keyboard_android_default</item>
+        <item>keyboard_simple</item>
+        <item>keyboard_metal</item>
+        <item>keyboard_gray_fat</item>
+        <item>keyboard_simple_fat</item>
+        <item>keyboard_metal_fat</item>
+        <item>keyboard_custom</item>
+    </array>
+    <array name="auto_qwerty_alphabet">
+        <item>@string/preference_auto_qwerty_alphabet_sel_disable</item>
+        <item>@string/preference_auto_qwerty_alphabet_sel_landscape</item>
+        <item>@string/preference_auto_qwerty_alphabet_sel_both</item>
+    </array>
+    <array name="auto_qwerty_alphabet_id">
+        <item>disable</item>
+        <item>landscape</item>
+        <item>both</item>
+    </array>
+    <array name="auto_qwerty_number">
+        <item>@string/preference_auto_qwerty_number_sel_disable</item>
+        <item>@string/preference_auto_qwerty_number_sel_landscape</item>
+        <item>@string/preference_auto_qwerty_number_sel_both</item>
+    </array>
+    <array name="auto_qwerty_number_id">
+        <item>disable</item>
+        <item>landscape</item>
+        <item>both</item>
+    </array>
+    <array name="flick_threshold">
+        <item>@string/preference_flick_threshold_lev1</item>
+        <item>@string/preference_flick_threshold_lev2</item>
+        <item>@string/preference_flick_threshold_lev3</item>
+        <item>@string/preference_flick_threshold_lev4</item>
+        <item>@string/preference_flick_threshold_lev5</item>
+    </array>
+    <array name="flick_threshold_id">
+        <item>lev1</item>
+        <item>lev2</item>
+        <item>lev3</item>
+        <item>lev4</item>
+        <item>lev5</item>
+    </array>
+    <array name="auto_qwerty_hiragana">
+        <item>@string/preference_auto_qwerty_hiragana_sel_disable</item>
+        <item>@string/preference_auto_qwerty_hiragana_sel_landscape</item>
+        <item>@string/preference_auto_qwerty_hiragana_sel_both</item>
+    </array>
+    <array name="auto_qwerty_hiragana_id">
+        <item>disable</item>
+        <item>landscape</item>
+        <item>both</item>
+    </array>
+    <array name="keyin_toggle">
+        <item>@string/preference_keyin_toggle_sel_disable</item>
+        <item>@string/preference_keyin_toggle_sel_both</item>
+        <item>@string/preference_keyin_toggle_sel_only</item>
+    </array>
+    <array name="keyin_toggle_id">
+        <item>disable</item>
+        <item>both</item>
+        <item>only</item>
+    </array>
+    <array name="popup_preview_sel">
+        <item>@string/preference_popup_preview_sel_popup_feedback</item>
+        <item>@string/preference_popup_preview_sel_popup_preview</item>
+        <item>@string/preference_popup_preview_sel_popup_simple</item>
+        <item>@string/preference_popup_preview_sel_key_feedbak</item>
+        <item>@string/preference_popup_preview_sel_key_preview</item>
+        <item>@string/preference_popup_preview_sel_none</item>
+    </array>
+    <array name="popup_preview_sel_id">
+        <item>popup_feedback</item>
+        <item>popup_preview</item>
+        <item>popup_simple</item>
+        <item>key_feedbak</item>
+        <item>key_preview</item>
+        <item>none</item>
+    </array>
+</resources>

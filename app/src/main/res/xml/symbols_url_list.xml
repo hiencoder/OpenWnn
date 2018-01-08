@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keystring xmlns:android="http://schemas.android.com/apk/res/android">
+    <string value=":" />
+    <string value="/" />
+    <string value="?" />
+    <string value="&amp;" />
+    <string value="=" />
+    <string value="+" />
+    <string value="-" />
+    <string value="~" />
+    <string value="_" />
+    <string value="http://" />
+    <string value="https://" />
+    <string value="http://www." />
+    <string value="ftp://" />
+    <string value=".com" />
+    <string value=".net" />
+    <string value=".org" />
+    <string value=".co.jp" />
+    <string value=".ne.jp" />
+    <string value=".or.jp" />
+    <string value=".jp" />
+</keystring>

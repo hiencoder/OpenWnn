@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="10%p" android:keyHeight="@dimen/key_height_landscape_h" android:horizontalGap="0dp" android:verticalGap="0dp">
+    <Row>
+        <Key android:codes="65297" android:keyEdgeFlags="left" android:keyLabel="1" />
+        <Key android:codes="65298" android:keyLabel="2" />
+        <Key android:codes="65299" android:keyLabel="3" />
+        <Key android:codes="65300" android:keyLabel="4" />
+        <Key android:codes="65301" android:keyLabel="5" />
+        <Key android:codes="65302" android:keyLabel="6" />
+        <Key android:codes="65303" android:keyLabel="7" />
+        <Key android:codes="65304" android:keyLabel="8" />
+        <Key android:codes="65305" android:keyLabel="9" />
+        <Key android:codes="65296" android:keyEdgeFlags="right" android:keyLabel="0" />
+    </Row>
+    <Row>
+        <Key android:codes="65312" android:keyEdgeFlags="left" android:keyLabel="@string/key_qwerty_full_at_sign" />
+        <Key android:codes="65283" android:keyLabel="@string/key_qwerty_full_number_sign" />
+        <Key android:codes="65285" android:keyLabel="@string/key_qwerty_full_percent_sign" />
+        <Key android:codes="65286" android:keyLabel="@string/key_qwerty_full_ampersand" />
+        <Key android:codes="65290" android:keyLabel="@string/key_qwerty_full_asterrisk" />
+        <Key android:codes="65291" android:keyLabel="@string/key_qwerty_full_plus_sign" />
+        <Key android:codes="65293" android:keyLabel="@string/key_qwerty_full_minus_sign" />
+        <Key android:codes="65309" android:keyLabel="@string/key_qwerty_full_equal_sign" />
+        <Key android:codes="12300" android:keyLabel="@string/key_qwerty_kagi_kakko_left" />
+        <Key android:codes="12301" android:keyEdgeFlags="right" android:keyLabel="@string/key_qwerty_kagi_kakko_right" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="15%p" android:codes="-1" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="false" android:iconPreview="@drawable/key_qwerty_shift_b" android:keyIcon="@drawable/key_qwerty_shift" />
+        <Key android:codes="65295" android:keyLabel="@string/key_qwerty_full_slash" />
+        <Key android:codes="65288" android:keyLabel="@string/key_qwerty_full_left_parenthesis" />
+        <Key android:codes="65289" android:keyLabel="@string/key_qwerty_full_right_parenthesis" />
+        <Key android:codes="65306" android:keyLabel="@string/key_qwerty_full_colon" />
+        <Key android:codes="65307" android:keyLabel="@string/key_qwerty_full_semicolon" />
+        <Key android:codes="65281" android:keyLabel="@string/key_qwerty_full_exclamation_mark" />
+        <Key android:codes="65311" android:keyLabel="@string/key_qwerty_full_question" />
+        <Key android:keyWidth="15%p" android:codes="-100" android:keyEdgeFlags="right" android:isRepeatable="false" android:iconPreview="@drawable/key_qwerty_del_b" android:keyIcon="@drawable/key_qwerty_del" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="15%p" android:codes="-230" android:popupKeyboard="@xml/keyboard_switch_key_qwerty_jp" android:keyEdgeFlags="left" android:iconPreview="@drawable/key_mode_change_b" android:keyIcon="@drawable/key_qwerty_mode_full_num" />
+        <Key android:keyWidth="15%p" android:codes="-106" android:iconPreview="@drawable/key_qwerty_pict_sym_b" android:keyIcon="@drawable/key_qwerty_pict_sym" />
+        <Key android:keyWidth="15%p" android:codes="12288" android:isRepeatable="true" android:iconPreview="@drawable/key_qwerty_space_b" android:keyIcon="@drawable/key_qwerty_space" />
+        <Key android:keyWidth="10%p" android:codes="-218" android:isRepeatable="true" android:iconPreview="@drawable/key_12key_left_b" android:keyIcon="@drawable/key_12key_left" />
+        <Key android:keyWidth="10%p" android:codes="-217" android:isRepeatable="true" android:iconPreview="@drawable/key_12key_right_b" android:keyIcon="@drawable/key_12key_right" />
+        <Key android:keyWidth="10%p" android:codes="65292" android:keyLabel="@string/key_qwerty_full_comma" />
+        <Key android:keyWidth="10%p" android:codes="65294" android:keyLabel="@string/key_qwerty_full_period" />
+        <Key android:keyWidth="15%p" android:codes="-101" android:keyEdgeFlags="right" android:iconPreview="@drawable/key_qwerty_enter_b" android:keyIcon="@drawable/key_qwerty_enter" />
+    </Row>
+</Keyboard>
